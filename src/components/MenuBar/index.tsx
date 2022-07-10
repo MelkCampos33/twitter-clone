@@ -11,7 +11,10 @@ import {
     EmailIcon,
     FavoriteIcon,
     ProfileIcon,
-
+    Botside,
+    Avatar,
+    ProfileData,
+    ExistIcon
 } from './styles';
 
 
@@ -50,12 +53,21 @@ const MenuBar: React.FC = () => {
             <Button>
                 <span> Tweetar </span>
             </Button>
-
         </Topside>
+
+        <Botside>
+          <Avatar />
+
+          <ProfileData>
+            <strong> Usuario </strong>
+            <span> @nasa_404 </span>
+          </ProfileData>
+
+          <ExistIcon />
+        </Botside>
     </Container>
   );
 }
 
 export default MenuBar;
 
-// video: 1:57:19
