@@ -25,13 +25,13 @@ export const SearchWrapper = styled.div`
 `;
 
 export const SearchInput = styled.div`
-    background: var(--search) ;
+    
     width: 100%;
     height: 39px;
     font-size: 14px;
     padding: 0 10px 0 52px;
     border-radius: 19.5px;
-
+    background: var(--search);
 
     &::placeholder {
         color: var(--gray);
